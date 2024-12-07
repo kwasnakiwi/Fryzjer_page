@@ -1,0 +1,82 @@
+.web-top4{
+    background-image: url(/src/assets/images/Obraz.png);
+}
+.site-navbar2{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 35%;
+}
+.uslugi2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 70px 7% 0 7%;
+}
+.usluga-under{
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.usluga{
+    text-align: center;
+    border: 2px solid black;
+    height: 284px;
+    padding: 10px;
+    max-width: 440px;
+    margin: auto;
+    border-radius: 20px;
+}
+.button{
+    margin: 100px 0;
+}
+.uslugi-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 100px;
+    font-family: Saira;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.05em;  
+    padding: 6px 80px;
+    gap: 20px;
+    background-color: transparent;
+    transition: 300ms;
+    cursor: pointer;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.uslugi-btn:hover{
+    background-color: rgba(0, 0, 0, 0.071);
+}
+@media (max-width: 1700px) {
+    .uslugi2{
+        gap: 15px;
+        margin: 100px 5% 0 5%;
+    }
+}
+@media (max-width: 1590px) {
+    .uslugi2{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 100px 15% 0 15%;
+    }
+}
+@media (max-width: 1350px) {
+    .uslugi2{
+        margin: 100px 7% 0 7%;
+    }
+}
+@media (max-width: 1120px) {
+    .uslugi2{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin: 100px 5% 0 5%;
+    }
+}
+@media (max-width: 540px) {
+    .site-navbar2{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

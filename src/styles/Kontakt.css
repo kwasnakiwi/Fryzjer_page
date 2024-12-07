@@ -1,0 +1,77 @@
+.web-top5{
+    background-image: url(/src/assets/images/tlo5.png);
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(120px);
+}
+.contact-icons div{
+    text-align: center;
+    width: 266px;
+}
+.icon1 img{
+    width: 101px;
+}
+.icon2 img{
+    width: 53px;
+}
+.icon3 img{
+    width: 42px;
+}
+.contact-icons div h5{
+    font-family: Poppins;
+    font-size: 20.82px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1.4px 1.4px 2.8px rgba(0, 0, 0, 0.65);
+    margin-top: 0;
+    white-space: nowrap;
+}
+.icon1, .icon3{
+    transform: translateY(60px);
+}
+
+.map2{
+    width: 100%;
+    height: 550px;
+}
+@media (max-width: 990px) {
+    .icon1, .icon3{
+    }
+    .contact-icons{
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+@media (max-width: 650px){
+    .web-top5{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 550px){
+    .contact-icons{
+        display: block;
+    }
+    .contact-icons{
+        transform: translateY(0);
+    }
+    .contact-icons *{
+        transform: translateY(0);
+    }
+    .contact-icons div{
+        height: 137px;
+        margin: 20px auto 0 auto;
+    }
+    .icon1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-icons div h5{
+        margin: 0;
+    }
+}

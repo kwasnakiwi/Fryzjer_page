@@ -1,0 +1,75 @@
+.web-top2{
+    background-image: url(/src/assets/images/tlo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 290px 15%;
+}
+.web-top-title2{
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+    padding: 0 17%;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.images img{
+    margin: auto;
+}
+.images-box{
+    margin: 0 12%;
+    padding-bottom: 150px;
+}
+.main-box{
+    margin-top: -70px;
+}
+.center-col{
+    transform: translateY(-40px);
+}
+@media (max-width: 1700px) {
+    .images img{
+        width: 300px;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 1330px) {
+    .images{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .center-col{
+        transform: translateY(0);
+    }
+}
+@media (max-width: 1290px) {
+    .web-top-title2{
+        padding: 0;
+        font-size: 50px;
+        margin: 0;
+    }
+    .web-top2{
+        padding: 290px 7%;
+    }
+}
+@media (max-width: 850px) {
+    .images{
+        grid-template-columns: 1fr;
+    }
+    .images-box{
+        margin: 0;
+    }
+}
+@media (max-width: 700px) {
+    .web-top-title2{
+        font-size: 45px;
+    }
+    .web-top2{
+        padding: 290px 0;
+    }
+}

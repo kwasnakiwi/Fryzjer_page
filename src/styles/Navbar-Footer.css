@@ -1,0 +1,43 @@
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+}
+.navbar-element a{
+    font-family: Saira Condensed;
+    font-size: 42px;
+    font-weight: 400;
+    padding: 0 20px; 
+    color: white;
+}
+.navbar-element{
+    height: 157px;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    height: 302px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+/*media*/
+@media (max-width: 885px) {
+    .navbar-element a{
+        font-size: 35px;
+        padding: 0 10px;
+    }
+    .navbar-element{
+        height: 100px;
+    }
+    .navbar-list{
+        top: 30px;
+    }
+}

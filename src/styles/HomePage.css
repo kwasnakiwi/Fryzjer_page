@@ -1,0 +1,509 @@
+.web-top{
+    background-image: url(/src/assets/images/Herosection.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 185px;
+}
+.web-top-title{
+    margin: 0;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: -0.06em; 
+    max-width: 680px;
+    padding-top: 200px;
+}
+.web-top-desc{
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.04em;  
+    max-width: 539px;
+    margin-top: 50px;
+}
+.btn1{
+    font-family: Saira;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 6px 23px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.web-top-text{
+    margin-left: 7%;
+}
+.opinions-title{
+    font-family: Playfair Display;
+    font-size: 42px;
+    font-weight: 700; 
+    text-align: center;
+    color: rgba(8, 20, 52, 1);
+}
+.opinions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 10%;
+}
+.opinion-img{
+    width: 156px;
+    border-radius: 100px;
+    box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.35);
+}
+.opinion{
+    text-align: center;
+}
+.opinion-cont{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(8, 20, 52, 1);
+    margin-top: -65px;
+}
+.star-opinion h4{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 500;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.star-opinion img{
+    margin-top: 6px;
+}
+.star-opinion{
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 156px;
+    margin: auto;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transform: translateY(-74px);
+    height: 70px;
+}
+.description img{
+    width: 664px;
+    box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.description{
+    display: flex;
+    justify-content: center;
+    margin: 0 12.5%;
+    align-items: center;
+    margin-top: 100px;
+}
+.description-text h2{
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(8, 20, 52, 1);
+}
+.description-text p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(8, 20, 52, 1);
+}
+.description-text{
+    padding: 20px;
+    transform: translateX(-20px);
+    background-color: rgba(233, 233, 233, 1);
+    box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.uslugi{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+    margin-bottom: 100px;
+    margin: 0 5% 100px 5%;
+}
+.uslugi .usluga{
+    border: 1px solid white;
+}
+.uslugi-box{
+    background: rgba(8, 20, 52, 1);
+    padding: 40px;
+    margin-top: 100px;
+    background-image: url(/src/assets/images/Tekstura.png;);
+}
+.uslugi-line{
+    max-width: 435px;
+    border: 2px solid rgba(192, 192, 192, 1);
+}
+.uslugi-title{
+    color: rgba(192, 192, 192, 1);
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0;
+}
+.usluga h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    padding: 20px 0;
+}
+.usluga div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: translateY(-103px);
+}
+.btn2{
+    border: 2px solid rgb(192, 192, 192);
+    font-family: Saira;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.05em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(192, 192, 192);
+    background-color: transparent;
+    padding: 6px 23px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: -30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+}
+.ppl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 4%;
+    gap: 20px;
+}
+.ppl-title{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: rgba(8, 20, 52, 1);
+    text-align: center;
+    margin-top: 0;
+}
+.ppl-line{
+    max-width: 749px;
+    border: 2px solid rgba(8, 20, 52, 1);
+}
+.ppl-box{
+    margin-top: 100px;
+}
+.ppl img{
+    width: 350px;
+}
+.person{
+    text-align: center;
+}
+.person div h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center; 
+    width: 350px;
+    margin: 0;
+    color: white;
+}
+.person div{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    transform: translateY(-59px);
+    margin: auto;
+}
+.wizytowka-title{
+    font-family: Playfair Display;
+    font-size: 39.74px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.wizytowka-desc{
+    font-family: Poppins;
+    font-size: 20.91px;
+    font-weight: 400;
+    color: white; 
+}
+.btn3{
+    font-family: Saira;
+    font-size: 33.46px;
+    font-weight: 600;
+    letter-spacing: 0.025em; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(192, 192, 192);
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 10px 60px;
+    margin-top: 100px;
+}
+.wizytowka{
+    display: flex;
+    justify-content: center;
+    margin: 150px 7% 100px 7%;
+    gap: 70px;
+    background-image: url(/src/assets/images/web-bottom-tlo.jpg);
+    padding: 20px;
+    background-position: center;
+    border-radius: 15.69px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 1);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.icon-box{
+    text-align: center;
+    width: 186px;
+}
+.icon-box h4{
+    font-family: Poppins;
+    font-size: 18.82px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: white;
+}
+.map1{
+    margin-left: 100px;
+    width: 600px;
+    max-width: 600px;
+}
+/*media*/
+@media (max-width: 1610px) {
+    .person img{
+        width: 300px;
+    }
+    .person div{
+        width: 300px;
+        transform: translateY(-50px);
+    }
+    .person div h3{
+        width: 300px;
+        font-size: 30px;
+    }
+    .person{
+        width: 300px;
+        text-align: center;
+    }
+    .ppl{
+        grid-template-columns: 300px 300px 300px 300px;
+        width: 1260px;
+        margin: 0 auto;
+    }
+    .uslugi{
+        gap: 20px;
+    }
+}
+@media (max-width: 1300px) {
+    .ppl{
+        grid-template-columns: 300px 300px;
+        width: 620px;
+    }
+}
+@media (max-width: 1535px) {
+
+}
+@media (max-width: 1480px){
+    .description{
+        margin: 100px 5%;
+    }
+}
+@media (max-width: 1450px) {
+    .uslugi{
+        grid-template-columns: 460px 460px;
+    }
+    .lastUsluga{
+        transform: translateY(0) translateX(51.5%);
+    }
+    .btn2{
+        transform: translateY(-30px);
+    }
+}
+@media (max-width: 1300px) {
+    iframe{
+        width: 500px;
+        height: 300px;
+        margin: a;
+    }
+    .wizytowka{
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        gap: 0;
+    }
+}
+@media (max-width: 1250px){
+    .description img{
+        width: 500px;
+    }
+    .description-text h2{
+        font-size: 28px;
+    }
+    .description-text p{
+        font-size: 22px;
+    }
+    .description{
+        margin: 100px 2%;
+    }
+}
+@media (max-width: 1130px) {
+    .wizytowka{
+        display: block;
+    }
+    .wizytowka-right{
+        margin-top: 50px;
+        text-align: center;
+    }
+    iframe{
+        margin: auto;
+    }
+    .wizytowka-left{
+        text-align: center;
+    }
+    .btn3{
+        margin: auto;
+    }
+    .icons{
+        margin-left: 0;
+    }
+}
+@media (max-width: 1050px){
+    .opinions{
+        margin: 0 4%;
+    }
+}
+@media (max-width: 970px) {
+    .uslugi{
+        grid-template-columns: 1fr;
+    }
+    .lastUsluga{
+        transform: translate(0, 0);
+    }
+    .usluga{
+        margin-top: -50px;
+    }
+}
+@media (max-width: 900px){
+    .hideOnMobile{
+        display: none;
+    }
+    .opinions{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .description{
+        display: block;
+        text-align: center;
+    }
+    .description-text{
+        max-width: 450px;
+        transform: translateX(0) translateY(-30px);
+        margin: 0 auto;
+    }
+}
+@media (max-width: 700px) {
+    .web-top-title{
+        font-size: 50px;
+    }
+    .web-top-desc{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 660px) {
+    .ppl{
+        grid-template-columns: 300px;
+        width: 300px;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: 185px 185px;
+    }
+    .lastIcon{
+        margin-top: -30px;
+        transform: translateX(65%);
+    }
+    .wizytowka{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    iframe{
+        width: 340px;
+    }
+}
+@media (max-width: 560px) {
+    .opinions{
+        grid-template-columns: 1fr 1fr;
+    }
+    .lastOpinion{
+        transform: translateX(50%);
+    }
+    .description img{
+        width: 300px;
+    }
+    .description-text{
+        max-width: 370px;
+    }
+}
+@media (max-width: 535px) {
+    .usluga img{
+        width: 300px;
+    }
+    .usluga div, .usluga div h3{
+        width: 300px;
+        text-align: center;
+    }
+    .usluga{
+        text-align: center;
+        max-height: 193.63px;
+    }
+    .usluga div{
+        transform:
+        translateY(-103px);
+    }
+}
+@media (max-width: 420px) {
+    .web-top-text{
+        margin-left: 1%;
+    }
+    .btn1{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  background: rgba(227, 227, 227, 1);
+}
+main{
+  margin-top: -100px;
+}
+a{
+  text-decoration: none;
+}

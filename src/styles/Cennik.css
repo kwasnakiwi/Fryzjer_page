@@ -1,0 +1,131 @@
+.web-top3{
+    background-image: url(/src/assets/images/tlo3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 290px 15%;
+}
+.main-cont2{
+    margin-top: -50px;
+}
+.site-navbar{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 30%;
+    gap: 50px;
+}
+.site-navbar a{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(8, 20, 52, 1); 
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.45);
+    transition: 0.1s;
+}
+.site-navbar a:hover{
+    font-weight: 700;
+    color: rgba(15, 39, 103, 1);
+}
+#blue{
+    font-weight: 700;
+    color: rgba(15, 39, 103, 1);
+}
+.price, .offer-name{
+    font-family: Poppins;
+    font-size: 17.61px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.offer-desc{
+    font-family: Poppins;
+    font-size: 14.41px;
+    font-weight: 300;
+    text-shadow: 4.8px 4.8px 6.41px rgba(0, 0, 0, 0.45);
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.offer-line{
+    border: 0.8px solid black;
+    max-width: 536.43px;
+    margin: 0;
+}
+.offer-text-cont{
+    display: flex;
+}
+
+.offer{
+    max-width: 536.43px;
+}
+.price{
+    text-align: right;
+    white-space: nowrap;
+}
+.price-box{
+    margin-left: auto;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 5%;
+}
+.linia-podzialu-box{
+    width: 100px;
+}
+.linia-podzialu{
+    display: block;
+    margin: auto;
+    width: 4px;
+    height: 100%;
+}
+/*media*/
+@media (max-width: 1370px) {
+    .offer-desc{
+        height: 36px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 1185px) {
+    .offer-name{
+        height: 36px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 1000px) {
+    .offers{
+        display: block;
+    }
+    .linia-podzialu-box{
+        display: none;
+    }
+    .offer{
+        margin: 0 auto;
+    }
+    .offers *{
+        height: auto;
+    }
+}
+@media (max-width: 730px) {
+    .site-navbar{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 420px) {
+    .web-top3{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+@media (max-width: 370px) {
+    .site-navbar{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .offers{
+        margin-top: 50px;
+    }
+}
