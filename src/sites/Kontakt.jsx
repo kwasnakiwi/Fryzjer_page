@@ -5,6 +5,7 @@ import icon3 from './../assets/images/path1 1.png'
 
 function Kontakt() {
   return(
+	<>
 		<div className='center-container'>
 			<div className='web-top3 web-top5'>
 				<h1 className="web-top-title2 web-top-title3">Zarezerwuj termin u naszych ekspertów</h1>
@@ -33,6 +34,7 @@ function Kontakt() {
 				</div>
 			</main>
 		</div>
+		</>
 	)
 }
 
