@@ -1,6 +1,6 @@
 import './../../styles/Cennik.css';
 import { Link } from 'react-router-dom';
-import line from './../../assets/images/line 35.png';
+import line from './../../assets/images/liniapodzialu.png';
 
 function Paznokcie() {
   return(
