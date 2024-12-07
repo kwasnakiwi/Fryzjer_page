@@ -1,13 +1,13 @@
 import './../styles/Portfolio.css'
-import zdj1 from './../assets/images/zdj1.png';
-import zdj2 from './../assets/images/zdj2.png';
-import zdj3 from './../assets/images/zdj3.png';
-import zdj4 from './../assets/images/zdj4.png';
-import zdj5 from './../assets/images/zdj5.png';
-import zdj6 from './../assets/images/zdj6.png';
-import zdj7 from './../assets/images/zdj7.png';
-import zdj8 from './../assets/images/zdj8.png';
-import zdj9 from './../assets/images/zdj9.png';
+import zdj1 from './../assets/images/Zdjęcie 1.png';
+import zdj2 from './../assets/images/Zdjęcie 2.png';
+import zdj3 from './../assets/images/Zdjęcie 3.png';
+import zdj4 from './../assets/images/Zdjęcie 4.png';
+import zdj5 from './../assets/images/Zdjęcie 5.png';
+import zdj6 from './../assets/images/Zdjęcie 6.png';
+import zdj7 from './../assets/images/Zdjęcie 7.png';
+import zdj8 from './../assets/images/Zdjęcie 8.png';
+import zdj9 from './../assets/images/Zdjęcie 9.png';
 
 function Portfolio() {
   return(

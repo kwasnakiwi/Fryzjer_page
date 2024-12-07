@@ -12,6 +12,7 @@ import Usluga2 from "./sites/Uslugi_sites/Usluga2"
 import Usluga3 from "./sites/Uslugi_sites/Usluga3"
 import Kontakt from "./sites/Kontakt"
 import ScrollToTop from "./components/ScrollToTop"
+import NavbarScrolled from "./components/NavbarScrolled"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <div className="animations">
           <ScrollToTop />
+          <NavbarScrolled />
         </div>
         <Navbar />
         <Routes>

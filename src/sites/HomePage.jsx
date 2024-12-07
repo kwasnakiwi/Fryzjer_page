@@ -113,9 +113,11 @@ function HomePage() {
                 </div>
                 </div>
               </div>
-              <button className='btn2'>
-                Zobacz wszystkie uslugi<img src={arrow3}/>
-              </button>
+              <Link to='/uslugi/strzyzenie'>
+                <button className='btn2'>
+                  Zobacz wszystkie uslugi<img src={arrow3}/>
+                </button>
+              </Link>
             </div>
             <div className='ppl-box'>
               <hr className='ppl-line' />

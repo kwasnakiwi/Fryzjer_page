@@ -1,7 +1,8 @@
 .web-top5{
-    background-image: url(/src/assets/images/tlo5.png);
+    background-image: url(/src/assets/images/tlo_kontakt.png);
     padding-top: 200px;
     padding-bottom: 250px;
+    z-index: 100;
 }
 .contact-icons{
     display: flex;
@@ -33,10 +34,13 @@
 .icon1, .icon3{
     transform: translateY(60px);
 }
-
+.main-page3{
+    z-index: -1;
+}
 .map2{
     width: 100%;
-    height: 550px;
+    height: 650px;
+    margin-top: -50px;
 }
 @media (max-width: 990px) {
     .icon1, .icon3{

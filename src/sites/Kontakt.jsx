@@ -27,7 +27,7 @@ function Kontakt() {
 					</div>
 				</div>
 			</div>
-			<main className='main-page2'>
+			<main className='main-page3'>
 				<div className='map-box'>
 					<iframe className='map2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.636628404545!2d19.15262641185138!3d50.2987104981595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da8a67c52f83%3A0x17ec9310a84e9ceb!2sPaderewska%20Agnieszka.%20Salon%20fryzjerski!5e0!3m2!1spl!2spl!4v1733502509438!5m2!1spl!2spl" width='1000px' style={{border: 0}} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
