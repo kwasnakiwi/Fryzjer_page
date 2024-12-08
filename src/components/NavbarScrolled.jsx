@@ -1,21 +1,14 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 function NavbarScrolled() {
   useEffect(() => {
     const navbar = document.querySelector('.navbar-list');
-    const navbar2 = document.querySelector('.navbar2-list');
 
     const handleScroll = () => {
       if (window.scrollY > 100) {
         navbar.classList.add('navbar-scrolled');
       } else {
         navbar.classList.remove('navbar-scrolled');
-      }
-
-      if (window.scrollY > 100) {
-        navbar2.classList.add('navbar-scrolled');
-      } else {
-        navbar2.classList.remove('navbar-scrolled');
       }
     };
 

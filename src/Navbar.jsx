@@ -1,7 +1,6 @@
 import './styles/Navbar-Footer.css';
 import { Link } from 'react-router-dom';
 import logo from './assets/images/logo.png';
-import NavbarScrolled from './components/NavbarScrolled';
 
 function Navbar() {
 

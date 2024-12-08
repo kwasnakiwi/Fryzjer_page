@@ -7,9 +7,9 @@
     z-index: 1000;
     padding: 0;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 27px;
     margin-top: 0;
-    transition: background-color 0.1s ease;
+    transition: background-color 0.3s ease;
 }
 .navbar-element a{
     font-family: Saira Condensed;
@@ -47,13 +47,15 @@
     position: fixed;
     width: 100%;
     display: none;
+    z-index: 1;
 }
 .navbar2-list{
     list-style: none;
     background-color: rgba(0, 0, 0, 0.7); 
     margin: 0;
     width: 100%;
-    height: 45vh;
+    height: 400px;
+    z-index: 1;
 }
 .navbar2-element a{
     font-family: Saira Condensed;
@@ -76,6 +78,9 @@
 }
 .navbar2 img{
     width: 120px;
+}
+.navbar-element a:hover, .navbar2-element a:hover{
+    text-decoration: underline;
 }
 /*media*/
 @media (max-width: 885px) {
