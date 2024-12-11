@@ -27,13 +27,13 @@ function HomePage() {
       <div className="center-container">
         <div className="web-top">
             <div className='web-top-text'>
-            <h1 className="web-top-title">Wyraź swój styl – zaufaj profesjonalistom!</h1>
+            <h1 className="web-top-title">MB Studio Urody – zaufaj profesjonalistom!</h1>
             <p className="web-top-desc">
-              Odkryj piękno, które tkwi w Tobie. Nasz 
-              zespół zadba o każdy detal, byś wyglądał 
-              i czuł się doskonale każdego dnia!
+              MB Studio Urody to miejsce, gdzie specjalizujemy się w fryzjerstwie, 
+              kosmetologii oraz stylizacji paznokci. Nasza oferta obejmuje 
+              profesjonalne usługi stylizacji włosów i zabiegów kosmetycznych.
             </p>
-            <Link to='/portfolio'><button className="btn1">Portfolio<img src={arrow1}/></button></Link>
+            <Link to='/portfolio' className="btn1">Portfolio<img src={arrow1}/></Link>
           </div>
         </div>
         <main>
@@ -113,10 +113,8 @@ function HomePage() {
                 </div>
                 </div>
               </div>
-              <Link to='/uslugi/strzyzenie'>
-                <button className='btn2'>
+              <Link  className='btn2' to='/uslugi/strzyzenie'>
                   Zobacz wszystkie uslugi<img src={arrow3}/>
-                </button>
               </Link>
             </div>
             <div className='ppl-box'>

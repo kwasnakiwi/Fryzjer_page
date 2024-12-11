@@ -1,5 +1,5 @@
 .web-top4{
-    background-image: url(/src/assets/images/Obraz.png);
+    background-image: url(/src/assets/images/uslugi_tlo.png);
 }
 .site-navbar2{
     grid-template-columns: 1fr 1fr 1fr;
@@ -28,6 +28,7 @@
 .button{
     margin: 100px 0;
 }
+
 .uslugi-btn{
     display: flex;
     justify-content: center;
@@ -45,6 +46,8 @@
     transition: 300ms;
     cursor: pointer;
     box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.5);
+    color: black;
+    max-width: 320px;
 }
 .uslugi-btn:hover{
     background-color: rgba(0, 0, 0, 0.071);
