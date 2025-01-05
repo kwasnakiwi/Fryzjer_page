@@ -536,3 +536,52 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 375px) {
+    .btn3{
+        font-size: 28px;
+        padding: 15px 40px;
+    }
+    .map1{
+        width: 240px;
+        height: 280px;
+    }
+    .web-top-title{
+        font-size: 43px;
+        margin-right: 2%;
+        width: auto;
+    }
+    .web-top-text{
+        margin: 0 5%;
+    }
+}
+@media (max-width: 368px) {
+    .opinions{
+        grid-template-columns: 1fr;
+    }
+    .lastOpinion{
+        transform: translateX(0);
+    }
+    .description img{
+        width: 280px;
+    }
+    .usluga img{
+        width: 250px;
+    }
+    .usluga div, .usluga div h3{
+        width: 250px;
+        text-align: center;
+    }
+    .usluga{
+        text-align: center;
+        max-height: 163.63px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .usluga div{
+        transform:
+        translateY(-103px);
+    }
+    .uslugi-title{
+        margin-bottom: 30px;
+    }
+}

@@ -9,10 +9,8 @@
     margin-top: -50px;
 }
 .site-navbar{
-    display: grid;
+    display: flex;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 30%;
     gap: 50px;
 }
 .site-navbar a{
@@ -32,86 +30,103 @@
     font-weight: 700;
     color: rgba(15, 39, 103, 1);
 }
-.price, .offer-name{
-    font-family: Poppins;
-    font-size: 17.61px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-.offer-desc{
-    font-family: Poppins;
-    font-size: 14.41px;
-    font-weight: 300;
-    text-shadow: 4.8px 4.8px 6.41px rgba(0, 0, 0, 0.45);
-    margin-top: 7px;
-    margin-bottom: 10px;
-}
-.offer-line{
-    border: 0.8px solid black;
-    max-width: 536.43px;
-    margin: 0;
-}
-.offer-text-cont{
-    display: flex;
-}
-
-.offer{
-    max-width: 536.43px;
-}
-.price{
-    text-align: right;
-    white-space: nowrap;
-}
-.price-box{
-    margin-left: auto;
-}
-.offers{
+.offer-box{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin: 100px 5%;
+    gap: 170px;
+    align-items: center;
+    margin-top: 120px;
 }
-.linia-podzialu-box{
-    width: 100px;
+.offers{
+    padding-bottom: 150px;
 }
-.linia-podzialu{
-    display: block;
-    margin: auto;
-    width: 4px;
-    height: 100%;
+.offer-box img{
+    max-height: 384px;
+}
+.offer-name{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+}
+.offer-price{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 608px;
+}
+.offer-price p, .price{
+    font-family: Poppins;
+    font-size: 19.96px;
+    font-weight: 500;
+    margin: 0;
+}
+.price{
+    margin-left: auto;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.offer-line{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+.margin-right{
+    margin-left: -40px;
+}
+.margin-left{
+    margin-left: 40px;
+}
+.showMobile{
+    display: none;
 }
 /*media*/
-@media (max-width: 1370px) {
-    .offer-desc{
-        height: 36px;
-        display: flex;
-        align-items: center;
+@media (max-width: 1280px) {
+    .offer-box{
+        gap: 50px;
+    }
+    .margin-left, .margin-right{
+        margin: 0;
     }
 }
-@media (max-width: 1185px) {
-    .offer-name{
-        height: 36px;
-        display: flex;
-        align-items: center;
-    }
-}
-@media (max-width: 1000px) {
-    .offers{
+@media (max-width: 1070px) {
+    .offer-box{
         display: block;
     }
-    .linia-podzialu-box{
+    .offer-line{
+        max-width: 608px;
+    }
+    .offer-box img{
+        width: 250px;
+    }
+    .offer-box{
+        text-align: center;
+    }
+    .offer-price, .offer-line{
+        margin: auto;
+    }
+    .offer-price p{
+        text-align: left;
+    }
+    .hideMobile{
         display: none;
     }
-    .offer{
-        margin: 0 auto;
-    }
-    .offers *{
-        height: auto;
+    .showMobile{
+        display: block;
     }
 }
 @media (max-width: 730px) {
     .site-navbar{
         grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 628px) {
+    .offer-price, .offer-line{
+        width: auto;
+    }
+    .offer-price{
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 @media (max-width: 420px) {
@@ -122,10 +137,8 @@
 }
 @media (max-width: 370px) {
     .site-navbar{
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-    .offers{
-        margin-top: 50px;
+        display: block;
+        text-align: center;
+        gap: 30px;
     }
 }
