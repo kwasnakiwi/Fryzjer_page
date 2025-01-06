@@ -7,20 +7,20 @@
     z-index: 1000;
     padding: 0;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 7px;
     margin-top: 0;
+    margin: 0;
     transition: background-color 0.3s ease;
 }
 .navbar-element a{
     font-family: Saira Condensed;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 400;
     padding: 0 20px; 
     color: white;
-    margin-bottom: 15px;
 }
 .navbar-element{
-    height: 127px;
+    height: 120px;
     display: flex;
     align-items: center;
 }
@@ -58,7 +58,7 @@
     z-index: 1;
 }
 .navbar-list img{
-    width: 120px;
+    height: 120px;
 }
 .navbar2-element a{
     font-family: Saira Condensed;
@@ -86,19 +86,7 @@
     text-decoration: underline;
 }
 /*media*/
-@media (max-width: 885px) {
-    .navbar-element a{
-        font-size: 35px;
-        padding: 0 10px;
-    }
-    .navbar-element{
-        height: 100px;
-    }
-    .navbar img{
-        width: 120px;
-        margin-top: 10px;
-    }
-}
+
 @media (max-width: 730px) {
 
     .showOnMobile{

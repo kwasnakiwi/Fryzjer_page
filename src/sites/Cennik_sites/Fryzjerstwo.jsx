@@ -22,7 +22,7 @@ function Kosmetyka() {
             <Link to='/cennik/kosmetyka'>Kosmetyka</Link>
           </div>
           <div className='offers'>
-            <div className='offer-box'>
+            <div className='offer-box' id='b1'>
               <img src={cennik1} />
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-left'>Maniciure</h2>
@@ -55,7 +55,7 @@ function Kosmetyka() {
                 </div>
               </div>
             </div>
-            <div className='offer-box hideMobile'>
+            <div className='offer-box hideMobile' id='b2'>
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-right'>Żel na naturalnej płytce</h2>
                 <div className='offer-prices'>
@@ -91,7 +91,7 @@ function Kosmetyka() {
                 </div>
               </div>
             </div>
-            <div className='offer-box'>
+            <div className='offer-box' id='b3'>
               <img src={cennik3} />
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-left'>Żel / akrylożel</h2>
@@ -124,7 +124,7 @@ function Kosmetyka() {
                 </div>
               </div>
             </div>
-            <div className='offer-box hideMobile'>
+            <div className='offer-box hideMobile' id='b4'>
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-right'>Rekonstrukcja</h2>
                 <div className='offer-prices'>
@@ -160,7 +160,7 @@ function Kosmetyka() {
                 </div>
               </div>
             </div>
-            <div className='offer-box'>
+            <div className='offer-box' id='b5'>
               <img src={cennik5} />
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-left'>Uzupełnienie</h2>
@@ -183,7 +183,7 @@ function Kosmetyka() {
                 </div>
               </div>
             </div>
-            <div className='offer-box hideMobile'>
+            <div className='offer-box hideMobile' id='b6'>
               <div className='cennik-box-text'>
                 <h2 className='offer-name margin-right'>Zdobienie</h2>
                 <div className='offer-prices'>

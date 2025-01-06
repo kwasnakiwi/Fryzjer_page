@@ -25,17 +25,40 @@
 .site-navbar a:hover{
     font-weight: 700;
     color: rgba(15, 39, 103, 1);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 5px;
 }
 #blue{
     font-weight: 700;
     color: rgba(15, 39, 103, 1);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 5px;
 }
 .offer-box{
     display: flex;
     justify-content: center;
-    gap: 170px;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 50px;
+}
+#b1{
+    gap: 140px;
+}
+#b2{
+    gap: 200px;
+}
+#b3{
+    gap: 150px;
+}
+#b4{
+    gap: 115px;
+}
+#b5{
+    gap: 120px;
+}
+#b6{
+    gap: 150px;
 }
 .offers{
     padding-bottom: 150px;
@@ -45,7 +68,7 @@
 }
 .offer-name{
     font-family: Playfair Display;
-    font-size: 48px;
+    font-size: 38.19px;
     font-weight: 800;
     letter-spacing: 0.1em;
     margin-top: 0;
@@ -53,12 +76,12 @@
 .offer-price{
     display: flex;
     align-items: center;
-    padding: 10px 0;
-    width: 608px;
+    padding: 5px 0;
+    width: 483px;
 }
 .offer-price p, .price{
     font-family: Poppins;
-    font-size: 19.96px;
+    font-size: 15.88px;
     font-weight: 500;
     margin: 0;
 }
@@ -69,13 +92,14 @@
 }
 .offer-line{
     border: 1px solid rgba(0, 0, 0, 0.25);
-    margin: 0;
+    margin: 0 auto;
+    max-width: 477px;
 }
 .margin-right{
-    margin-left: -40px;
+    margin-left: -30px;
 }
 .margin-left{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .showMobile{
     display: none;
@@ -92,9 +116,6 @@
 @media (max-width: 1070px) {
     .offer-box{
         display: block;
-    }
-    .offer-line{
-        max-width: 608px;
     }
     .offer-box img{
         width: 250px;
@@ -123,6 +144,7 @@
 @media (max-width: 628px) {
     .offer-price, .offer-line{
         width: auto;
+        max-width: none;
     }
     .offer-price{
         padding-left: 5px;

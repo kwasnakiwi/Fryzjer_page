@@ -54,7 +54,7 @@ function Usluga1() {
 					</div>
 				</div>
 				<div className='button'>
-					<Link to='/cennik/strzyzenie' className='uslugi-btn'>Zobacz ceny<img src={arrow}/></Link>
+					<Link to='/cennik/fryzjerstwo' className='uslugi-btn'>Zobacz ceny<img src={arrow}/></Link>
 				</div>
 			</main>
 		</div>
