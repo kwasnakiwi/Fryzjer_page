@@ -1,11 +1,11 @@
 import './../../styles/Cennik.css';
 import { Link } from 'react-router-dom';
-import cennik1 from './../../assets/images/cennik1.png'
-import cennik2 from './../../assets/images/cennik2.png'
-import cennik3 from './../../assets/images/cennik3.png'
-import cennik4 from './../../assets/images/cennik4.png'
-import cennik5 from './../../assets/images/cennik5.png'
-import cennik6 from './../../assets/images/cennik6.png'
+import cennik1 from './../../assets/images/cennik7.png'
+import cennik2 from './../../assets/images/cennik8.png'
+import cennik3 from './../../assets/images/cennik9.png'
+import cennik4 from './../../assets/images/cennik10.png'
+import cennik5 from './../../assets/images/cennik11.png'
+import cennik6 from './../../assets/images/cennik12.png'
 
 function Kosmetyka() {
   return(
@@ -25,31 +25,21 @@ function Kosmetyka() {
             <div className='offer-box' id='b1'>
               <img src={cennik1} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-left'>Maniciure</h2>
+                <h2 className='offer-name margin-left'>Strzyżenie męskie</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Manicure klasyczny</p>
+                    <p>Klasyczne</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Manicure hybrydowy</p>
+                    <p>Maszynka</p>
                     <h4 className='price'>74 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Spa Manicure</p>
+                    <p>Włosy długie</p>
                     <h4 className='price'>36 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Usunięcie masy (z innego salonu)</p>
-                    <h4 className='price'>52 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Naprawa jednego paznokcia</p>
-                    <h4 className='price'>64 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -57,15 +47,15 @@ function Kosmetyka() {
             </div>
             <div className='offer-box hideMobile' id='b2'>
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Żel na naturalnej płytce</h2>
+                <h2 className='offer-name margin-right'>Strzyżenie damskie</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Żel w butelce</p>
-                    <h4 className='price'>68 zł</h4>
+                    <p>Klasyczne (Mycie)</p>
+                    <h4 className='price'>68 / 85 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Korekta paznokci naturalnych</p>
+                    <p>Podcięcie końcówek + mycie</p>
                     <h4 className='price'>74 zł</h4>
                   </div>
                   <hr className='offer-line' />
@@ -75,16 +65,16 @@ function Kosmetyka() {
             </div>
             <div className='offer-box showMobile'>
             <img src={cennik2} />
-              <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Żel na naturalnej płytce</h2>
+            <div className='cennik-box-text'>
+                <h2 className='offer-name margin-right'>Strzyżenie damskie</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Żel w butelce</p>
-                    <h4 className='price'>68 zł</h4>
+                    <p>Klasyczne (Mycie)</p>
+                    <h4 className='price'>68 / 85 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Korekta paznokci naturalnych</p>
+                    <p>Podcięcie końcówek + mycie</p>
                     <h4 className='price'>74 zł</h4>
                   </div>
                   <hr className='offer-line' />
@@ -94,31 +84,36 @@ function Kosmetyka() {
             <div className='offer-box' id='b3'>
               <img src={cennik3} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-left'>Żel / akrylożel</h2>
+                <h2 className='offer-name margin-left'>Koloryzacja</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Krótkie</p>
+                    <p>Włosy krótkie</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Średnie</p>
-                    <h4 className='price'>74 zł</h4>
+                    <p>Włosy średnie / + strzyżenie</p>
+                    <h4 className='price'>74 / 95 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Długie</p>
-                    <h4 className='price'>92 zł</h4>
+                    <p>Włosy długie / + strzyżenie</p>
+                    <h4 className='price'>92 / 160 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Usunięcie masy (z innego salonu)</p>
-                    <h4 className='price'>25 zł</h4>
+                    <p>Kolor Duo / Refleks</p>
+                    <h4 className='price'>+50 / 90 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Naprawa jednego paznokcia</p>
-                    <h4 className='price'>74 zł</h4>
+                    <p>Dekoloryzacja</p>
+                    <h4 className='price'>125 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Koloryzacja Airtouch</p>
+                    <h4 className='price'>165 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -126,16 +121,46 @@ function Kosmetyka() {
             </div>
             <div className='offer-box hideMobile' id='b4'>
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Rekonstrukcja</h2>
+                <h2 className='offer-name margin-right'>Techniki koloryzacji</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Pojedyńczy paznokieć</p>
+                    <p>Refleksy / Pasemka włosy krótkie + strzyżenie</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Pełna stylizacja</p>
+                    <p>Refleksy / Pasemka włosy średnie + strzyżenie</p>
                     <h4 className='price'>74 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Refleksy / Pasemka włosy długie + strzyżenie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy krótkie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy średnie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy długie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Sombre / Ombre włosy średnie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Sombre / Ombre włosy długie</p>
+                    <h4 className='price'>95 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -144,17 +169,47 @@ function Kosmetyka() {
             </div>
             <div className='offer-box showMobile'>
             <img src={cennik4} />
-              <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Rekonstrukcja</h2>
+            <div className='cennik-box-text'>
+                <h2 className='offer-name margin-right'>Techniki koloryzacji</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Pojedyńczy paznokieć</p>
+                    <p>Refleksy / Pasemka włosy krótkie + strzyżenie</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Pełna stylizacja</p>
+                    <p>Refleksy / Pasemka włosy średnie + strzyżenie</p>
                     <h4 className='price'>74 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Refleksy / Pasemka włosy długie + strzyżenie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy krótkie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy średnie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Baleyage / Tonowanie włosy długie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Sombre / Ombre włosy średnie</p>
+                    <h4 className='price'>95 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Sombre / Ombre włosy długie</p>
+                    <h4 className='price'>95 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -163,20 +218,25 @@ function Kosmetyka() {
             <div className='offer-box' id='b5'>
               <img src={cennik5} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-left'>Uzupełnienie</h2>
+                <h2 className='offer-name margin-left'>Zabiegi pielęgnacyjne</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>2-3 tygodnie</p>
+                    <p>Keratynowe prostowanie</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>3-4 tygodnie</p>
+                    <p>Pielęgnacja</p>
                     <h4 className='price'>74 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Powyżej 4 tygodni</p>
+                    <p>Mikroflex włosy średnie</p>
+                    <h4 className='price'>36 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Mikroflex włosy długie</p>
                     <h4 className='price'>36 zł</h4>
                   </div>
                   <hr className='offer-line' />
@@ -185,26 +245,16 @@ function Kosmetyka() {
             </div>
             <div className='offer-box hideMobile' id='b6'>
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Zdobienie</h2>
+                <h2 className='offer-name margin-right'>Inne</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>French/ombre</p>
+                    <p>Zagęszczenie włosów</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Naklejka/stempel</p>
+                    <p>Konsultacja</p>
                     <h4 className='price'>74 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Ręcznie malowane zdobienie</p>
-                    <h4 className='price'>36 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pyłek</p>
-                    <h4 className='price'>52 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -214,26 +264,16 @@ function Kosmetyka() {
             <div className='offer-box showMobile'>
               <img src={cennik6} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-right'>Zdobienie</h2>
+                <h2 className='offer-name margin-right'>Inne</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>French/ombre</p>
+                    <p>Zagęszczenie włosów</p>
                     <h4 className='price'>68 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Naklejka/stempel</p>
+                    <p>Konsultacja</p>
                     <h4 className='price'>74 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Ręcznie malowane zdobienie</p>
-                    <h4 className='price'>36 zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pyłek</p>
-                    <h4 className='price'>52 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
