@@ -7,7 +7,7 @@ import cennik4 from './../../assets/images/cennik10.png'
 import cennik5 from './../../assets/images/cennik11.png'
 import cennik6 from './../../assets/images/cennik12.png'
 
-function Kosmetyka() {
+function Fryzjerstwo() {
   return(
     <>
       <div className="center-container">
@@ -286,4 +286,4 @@ function Kosmetyka() {
   )
 }
 
-export default Kosmetyka
+export default Fryzjerstwo
