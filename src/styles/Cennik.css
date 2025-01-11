@@ -18,23 +18,24 @@
     font-family: Poppins;
     font-size: 26px;
     font-weight: 400;
-    color: rgba(8, 20, 52, 1); 
-    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.45);
-    transition: 0.1s;
+    color: rgba(15, 39, 103, 0.45); 
+    transition: 0.2s all;
 }
 .site-navbar a:hover{
     font-weight: 700;
     color: rgba(15, 39, 103, 1);
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
 #blue{
     font-weight: 700;
     color: rgba(15, 39, 103, 1);
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
 .offer-box{
     display: flex;

@@ -547,11 +547,15 @@
     }
     .web-top-title{
         font-size: 43px;
-        margin-right: 2%;
-        width: auto;
+        text-align: center;
     }
     .web-top-text{
-        margin: 0 5%;
+        margin: 0 2%;
+    }
+    .web-top-desc{
+        display: block;
+        margin: 0;
+        text-align: center;
     }
 }
 @media (max-width: 368px) {
@@ -584,4 +588,12 @@
     .uslugi-title{
         margin-bottom: 30px;
     }
+    .web-top-title{
+        font-size: 35px;
+
+    }
+
+}
+@media (max-width: 325px) {
+
 }
