@@ -24,6 +24,8 @@
     max-width: 440px;
     margin: auto;
     border-radius: 20px;
+    z-index: 111;
+    cursor: pointer;
 }
 .button{
     margin: 100px 0;
@@ -51,6 +53,35 @@
 }
 .uslugi-btn:hover{
     background-color: rgba(0, 0, 0, 0.071);
+}
+.text-hover p{
+    font-size: 30px;
+    color: rgb(192, 192, 192);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+.text-hover{
+    margin-top: -423px;
+    height: 298px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-1px);
+    transform: translateX(-10px);
+    border-radius: 20px;
+    width: 460px;
+    height: 308px;
+}
+.usluga:hover .text-hover{
+    opacity: 1;
+}
+.usluga img{
+    z-index: -111;
 }
 @media (max-width: 1700px) {
     .uslugi2{

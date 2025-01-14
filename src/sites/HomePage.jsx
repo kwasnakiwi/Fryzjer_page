@@ -96,21 +96,30 @@ function HomePage() {
               <div className='uslugi'>
                 <div className='usluga'>
                   <img src={usluga1}/>
-                  <div>
+                  <div className='usluga-under'>
                     <h3>STRZYŻENIE</h3>
                   </div>
+                  <div className='text-hover'>
+							      <p>Lorem ipsum<br/>dolor sit amet</p>
+						      </div>
                 </div>
                 <div className='usluga'>
                   <img src={usluga2}/>
-                <div>
+                  <div className='usluga-under'>
                   <h3>USŁUGI PREMIUM</h3>
                 </div>
+                <div className='text-hover'>
+							      <p>Lorem ipsum<br/>dolor sit amet</p>
+						    </div>
               </div>
               <div className='usluga lastUsluga'>
                 <img src={usluga3}/>
-                <div>
+                <div className='usluga-under'>
                   <h3>MANICURE</h3>
                 </div>
+                <div className='text-hover'>
+							      <p>Lorem ipsum<br/>dolor sit amet</p>
+						    </div>
                 </div>
               </div>
               <Link  className='btn2' to='/uslugi/strzyzenie'>

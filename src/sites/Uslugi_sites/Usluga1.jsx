@@ -21,11 +21,8 @@ function Usluga1() {
 						<div className='usluga-under'>
 							<h3>STRZYŻENIE</h3>
 						</div>
-					</div>
-					<div className='usluga'>
-						<img src={usluga1}/>
-						<div className='usluga-under'>
-							<h3>STRZYŻENIE</h3>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
 						</div>
 					</div>
 					<div className='usluga'>
@@ -33,11 +30,8 @@ function Usluga1() {
 						<div className='usluga-under'>
 							<h3>STRZYŻENIE</h3>
 						</div>
-					</div>
-					<div className='usluga'>
-						<img src={usluga1}/>
-						<div className='usluga-under'>
-							<h3>STRZYŻENIE</h3>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
 						</div>
 					</div>
 					<div className='usluga'>
@@ -45,11 +39,35 @@ function Usluga1() {
 						<div className='usluga-under'>
 							<h3>STRZYŻENIE</h3>
 						</div>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
+						</div>
 					</div>
 					<div className='usluga'>
 						<img src={usluga1}/>
 						<div className='usluga-under'>
 							<h3>STRZYŻENIE</h3>
+						</div>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
+						</div>
+					</div>
+					<div className='usluga'>
+						<img src={usluga1}/>
+						<div className='usluga-under'>
+							<h3>STRZYŻENIE</h3>
+						</div>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
+						</div>
+					</div>
+					<div className='usluga'>
+						<img src={usluga1}/>
+						<div className='usluga-under'>
+							<h3>STRZYŻENIE</h3>
+						</div>
+						<div className='text-hover'>
+							<p>Lorem ipsum<br/>dolor sit amet</p>
 						</div>
 					</div>
 				</div>
