@@ -29,9 +29,7 @@ function HomePage() {
             <div className='web-top-text'>
             <h1 className="web-top-title">MB Studio Urody – zaufaj profesjonalistom!</h1>
             <p className="web-top-desc">
-              MB Studio Urody to miejsce, gdzie specjalizujemy się w fryzjerstwie, 
-              kosmetologii oraz stylizacji paznokci. Nasza oferta obejmuje 
-              profesjonalne usługi stylizacji włosów i zabiegów kosmetycznych.
+            MB Studio Urody to wyjątkowe miejsce, w którym pasja łączy się z doświadczeniem. Specjalizujemy się w fryzjerstwie, kosmetologii oraz stylizacji paznokci, oferując usługi na najwyższym poziomie.
             </p>
             <Link to='/portfolio' className="btn1">Portfolio<img src={arrow1}/></Link>
           </div>
@@ -159,15 +157,12 @@ function HomePage() {
             <div className='wizytowka'>
               <div className='wizytowka-left'>
                 <h2 className='wizytowka-title'>
-                  Umów się na wizytę online i 
-                  zadbaj o swoje piękno już dziś!
+                Twoja metamorfoza zaczyna się tutaj – umów wizytę online!
                 </h2>
                 <p className='wizytowka-desc'>
-                  Nie czekaj na idealny moment, umów się na wizytę 
-                  w naszym salonie jednym kliknięciem! Korzystając z 
-                  Booksy, szybko i wygodnie zarezerwujesz termin, 
-                  który Ci odpowiada. Kliknij poniżej, aby przejść do 
-                  rezerwacji i poczuj się wyjątkowo!
+                Rezerwacja jeszcze nigdy nie była tak prosta!
+                Dzięki Booksy szybko i wygodnie wybierzesz dogodny termin.
+                Kliknij poniżej i zarezerwuj swoją wizytę już teraz
                 </p>
                 <button className='btn3'>
                   Rezerwuj przez Booksy<img src={arrow2}/>

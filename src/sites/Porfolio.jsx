@@ -15,8 +15,7 @@ function Portfolio() {
       <div className='center-container'>
         <div className="web-top2">
           <h1 className="web-top-title2">
-            Zainspiruj się naszymi stylizacjami, 
-            które podkreślą Twój charakter.
+          Portfolio pełne inspiracji – poznaj nasze możliwości!
           </h1>
         </div>
         <main className='main-box'>

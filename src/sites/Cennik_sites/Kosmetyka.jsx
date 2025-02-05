@@ -6,16 +6,37 @@ import cennik3 from './../../assets/images/cennik3.png'
 import cennik4 from './../../assets/images/cennik4.png'
 import cennik5 from './../../assets/images/cennik5.png'
 import cennik6 from './../../assets/images/cennik6.png'
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Kosmetyka() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const hash = location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        // Obliczanie pozycji elementu względem górnej krawędzi strony
+        const elementPosition = element.getBoundingClientRect().top;
+        
+        // Przewijanie do elementu z offsetem
+        window.scrollTo({
+          top: elementPosition + window.pageYOffset - 200, // 300px od góry
+          behavior: 'smooth',
+        });
+      }
+    }
+  }, [location]);
+
   return(
     <>
       <div className="center-container">
-        <div className="web-top3">
+        {/* <div className="web-top3">
           <h1 className="web-top-title2">
             Ceny, które odpowiadają Twoim wymaganiom
           </h1>
-        </div>
+        </div> */}
         <main className='main-cont2'>
           <div className='site-navbar'>
 						<Link to='/cennik/fryzjerstwo'>Fryzjerstwo</Link>

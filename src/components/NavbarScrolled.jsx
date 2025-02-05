@@ -5,7 +5,7 @@ function NavbarScrolled() {
     const navbar = document.querySelector('.navbar-list');
 
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 100 || location.pathname === '/cennik/fryzjerstwo' || location.pathname === '/cennik/kosmetyka' ) {
         navbar.classList.add('navbar-scrolled');
       } else {
         navbar.classList.remove('navbar-scrolled');

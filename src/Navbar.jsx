@@ -10,11 +10,11 @@ function Navbar() {
     <nav>
       <div className='navbar'>
         <ul className='navbar-list'>
-          <li className='navbar-element hideOnMobile'><Link to='/uslugi/strzyzenie'>USŁUGI</Link></li>
+          <li className='navbar-element hideOnMobile'><Link to='/uslugi'>USŁUGI</Link></li>
           <li className='navbar-element hideOnMobile'><Link to='/portfolio'>PORTFOLIO</Link></li>
           <li className='navbar-element'><Link to='/'><img src={logo}/></Link></li>
           <li className='navbar-element hideOnMobile'><Link to='/cennik/fryzjerstwo'>CENNIK</Link></li>
-          <li className='navbar-element hideOnMobile'><Link to='kontakt'><b>KONTAKT</b></Link></li>
+          <li className='navbar-element hideOnMobile'><Link to='/kontakt'><b>KONTAKT</b></Link></li>
           <li className='navbar-element showOnMobile'><h5 className='hamburger' onClick={
             function ShowNavbar() {
               const navbar2 = document.querySelector('.navbar2');
@@ -42,10 +42,10 @@ function Navbar() {
             }
           }>×</h5></li>
           <li className='navbar2-element first-element'><Link to='/'><img src={logo} /></Link></li>
-          <li className='navbar2-element'><Link to='/uslugi/strzyzenie'>USŁUGI</Link></li>
+          <li className='navbar2-element'><Link to='/uslugi'>USŁUGI</Link></li>
           <li className='navbar2-element'><Link to='/portfolio'>PORTFOLIO</Link></li>
           <li className='navbar2-element'><Link to='/cennik/fryzjerstwo'>CENNIK</Link></li>
-          <li className='navbar2-element'><Link to='kontakt'><b>KONTAKT</b></Link></li>
+          <li className='navbar2-element'><Link to='/kontakt'><b>KONTAKT</b></Link></li>
         </ul>
       </div>
     </nav>

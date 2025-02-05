@@ -75,7 +75,7 @@
     font-size: 24px;
     font-weight: 500;
     color: rgba(8, 20, 52, 1);
-    margin-top: -45px;
+    margin-top: -25px;
 }
 .star-opinion h4{
     font-family: Raleway;
@@ -98,7 +98,7 @@
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     transform: translateY(-64px);
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
@@ -167,7 +167,6 @@
     font-size: 24px;
     font-weight: 500;
     color: rgb(192, 192, 192);
-    text-align: center;
     padding: 20px 0;
 }
 .usluga-under{
