@@ -125,6 +125,9 @@
     font-weight: 400;
     color: rgba(8, 20, 52, 1);
 }
+.uslugi-box .usluga{
+    cursor: default;
+}
 .description-text{
     padding: 20px;
     transform: translateX(-20px);
@@ -132,19 +135,19 @@
     box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .uslugi{
-    display: grid;
+    display: flex;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 90px;
+    gap: 40px;
     margin-bottom: 100px;
-    margin: 0 5% 100px 5%;
+    margin: 50px 15% 100px 15%;
 }
+
 .uslugi .usluga{
     border: 1px solid white;
 }
 .uslugi-box{
     background: rgba(8, 20, 52, 1);
-    padding: 40px;
+    padding: 40px 5%;
     margin-top: 100px;
     background-image: url(/src/assets/images/Tekstura.png;);
 }
@@ -194,6 +197,7 @@
     transition: 0.3s;
     cursor: pointer;
     max-width: 460px;
+    text-align: center;
 }
 .btn2:hover{
     background-color: rgba(255, 255, 255, 0.253);
@@ -357,12 +361,8 @@
     }
 }
 @media (max-width: 1450px) {
-    .uslugi{
-        grid-template-columns: 460px 460px;
-    }
-    .lastUsluga{
-        transform: translateY(0) translateX(51.5%);
-    }
+
+
     .btn2{
         transform: translateY(-30px);
     }
@@ -417,13 +417,10 @@
 }
 @media (max-width: 970px) {
     .uslugi{
-        grid-template-columns: 1fr;
+        display: block;
     }
-    .lastUsluga{
-        transform: translate(0, 0);
-    }
-    .usluga{
-        margin-top: -50px;
+    .uslugi .usluga{
+        margin-top: 50px;
     }
 }
 @media (max-width: 900px){
@@ -441,6 +438,14 @@
         max-width: 450px;
         transform: translateX(0) translateY(-30px);
         margin: 0 auto;
+    }
+}
+@media (max-width: 755px) {
+    .uslugi .usluga img, .uslugi .usluga{
+        width: 300px;
+    }
+    .uslugi .usluga{
+        height: 193.68px;
     }
 }
 @media (max-width: 715px) {
@@ -503,22 +508,34 @@
     .description-text{
         max-width: 370px;
     }
+    .uslugi{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 @media (max-width: 535px) {
-    .usluga img{
+    .uslugi .usluga img{
         width: 300px;
     }
-    .usluga-under, .usluga-underh3{
+    .uslugi .usluga-under, .usluga-underh3{
         width: 300px;
         text-align: center;
     }
-    .usluga{
+    .uslugi .usluga{
         text-align: center;
         max-height: 193.63px;
     }
-    .usluga-under{
+    .uslugi .usluga-under{
         transform:
         translateY(-103px);
+    }
+}
+@media (max-width: 475px) {
+    .uslugi .usluga img, .uslugi .usluga, .uslugi .usluga-under{
+        width: 250px;
+    }
+    .uslugi .usluga{
+       height: 161.36px;
     }
 }
 @media (max-width: 440px) {
@@ -535,10 +552,21 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 415px) {
+    .uslugi .usluga img, .uslugi .usluga, .usluga-under{
+        width: 200px;
+    }
+    .uslugi .usluga{
+        height: 129.08px;
+    }
+}
 @media (max-width: 375px) {
     .btn3{
         font-size: 28px;
         padding: 15px 40px;
+    }
+    .btn2{
+        font-size: 23px;
     }
     .map1{
         width: 240px;
@@ -567,29 +595,15 @@
     .description img{
         width: 280px;
     }
-    .usluga img{
-        width: 250px;
-    }
-    .usluga-under, .usluga-under h3{
-        width: 250px;
-        text-align: center;
-    }
-    .usluga{
-        text-align: center;
-        max-height: 163.63px;
-        padding: 0;
-        margin-top: 20px;
-    }
-    .usluga-under{
-        transform:
-        translateY(-103px);
-    }
     .uslugi-title{
         margin-bottom: 30px;
     }
     .web-top-title{
         font-size: 35px;
 
+    }
+    .uslugi-box{
+        padding: 2%;
     }
 
 }

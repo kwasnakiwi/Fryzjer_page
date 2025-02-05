@@ -24,7 +24,7 @@
     border: 2px solid black;
     height: 284px;
     padding: 10px;
-    max-width: 440px;
+    width: 440px;
     margin: auto;
     border-radius: 20px;
     z-index: 111;
@@ -139,5 +139,60 @@
     .site-navbar2{
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    .uslugi2 .usluga img, .uslugi2 .usluga-under, .uslugi2 .usluga, .text-hover{
+        width: 300px;
+    }
+    .uslugi2 .usluga, .text-hover{
+        height: 193.63px;
+    }
+    .text-hover{
+        margin-top: -327px;
+        transform: translateX(-3px);
+    }
+    .text-hover h3{
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 22px;
+    }
+    .text-hover li{
+        font-size: 20px;
+    }
+}
+@media (max-width: 373px) {
+    .text-hover li{
+        display: none;
+    }
+    .text-hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-hover h3{
+        width: auto;
+    }
+    .uslugi2 .usluga img, .uslugi2 .usluga-under, .uslugi2 .usluga, .text-hover{
+        width: 250px;
+    }
+    .uslugi2 .usluga, .text-hover{
+        height: 161.36px;
+    }
+    .text-hover{
+        margin-top: -280px;
+        transform: translateX(-3px);
+        display: block;
+    }
+    .text-hover h3{
+        margin: 20% 0;
+        height: 66px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .uslugi2 .usluga-under{
+        transform: translateY(-94px);
+    }
+    .uslugi2 .usluga-under h3{
+        font-size: 20px;
     }
 }

@@ -52,17 +52,17 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Klasyczne</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>70 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Maszynka</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>50 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Włosy długie</p>
-                    <h4 className='price'>36 zł</h4>
+                    <h4 className='price'>100 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -74,12 +74,12 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Klasyczne (Mycie)</p>
-                    <h4 className='price'>68 / 85 zł</h4>
+                    <h4 className='price'>95 / 110 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Podcięcie końcówek + mycie</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>85 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -93,12 +93,12 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Klasyczne (Mycie)</p>
-                    <h4 className='price'>68 / 85 zł</h4>
+                    <h4 className='price'>95 / 110 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Podcięcie końcówek + mycie</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>85 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -111,17 +111,17 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Włosy krótkie</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>130 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Włosy średnie / + strzyżenie</p>
-                    <h4 className='price'>74 / 95 zł</h4>
+                    <h4 className='price'>180 / 260 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Włosy długie / + strzyżenie</p>
-                    <h4 className='price'>92 / 160 zł</h4>
+                    <h4 className='price'>200 / 280 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
@@ -131,12 +131,12 @@ function Fryzjerstwo() {
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Dekoloryzacja</p>
-                    <h4 className='price'>125 zł</h4>
+                    <h4 className='price'>600 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Koloryzacja Airtouch</p>
-                    <h4 className='price'>165 zł</h4>
+                    <h4 className='price'>700 - 900 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -148,42 +148,42 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy krótkie + strzyżenie</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>350 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy średnie + strzyżenie</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>400 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy długie + strzyżenie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>450 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy krótkie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>400 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy średnie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>430 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy długie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>480 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Sombre / Ombre włosy średnie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>450 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Sombre / Ombre włosy długie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>500 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -197,42 +197,42 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy krótkie + strzyżenie</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>350 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy średnie + strzyżenie</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>400 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Refleksy / Pasemka włosy długie + strzyżenie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>450 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy krótkie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>400 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy średnie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>430 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Baleyage / Tonowanie włosy długie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>480 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Sombre / Ombre włosy średnie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>450 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Sombre / Ombre włosy długie</p>
-                    <h4 className='price'>95 zł</h4>
+                    <h4 className='price'>500 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -245,22 +245,22 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Keratynowe prostowanie</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>350 - 500 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Pielęgnacja</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>70 - 100 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Mikroflex włosy średnie</p>
-                    <h4 className='price'>36 zł</h4>
+                    <h4 className='price'>380 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Mikroflex włosy długie</p>
-                    <h4 className='price'>36 zł</h4>
+                    <h4 className='price'>480 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -272,12 +272,12 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Zagęszczenie włosów</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>1000 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Konsultacja</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>0,01 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -291,12 +291,12 @@ function Fryzjerstwo() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Zagęszczenie włosów</p>
-                    <h4 className='price'>68 zł</h4>
+                    <h4 className='price'>1000 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Konsultacja</p>
-                    <h4 className='price'>74 zł</h4>
+                    <h4 className='price'>0,01 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>

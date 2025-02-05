@@ -96,7 +96,7 @@ function Usluga() {
 					<Link to='/cennik/fryzjerstwo#b5'>
 						<div className='usluga'>
 							<img src={usluga3}/>
-							<div className='usluga-under'>
+							<div className='usluga-under' id="diff">
 								<h3>ZABIEGI PIELĘGNACYJNE</h3>
 							</div>
 							<div className='text-hover'>

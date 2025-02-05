@@ -6,12 +6,13 @@
     padding: 290px 15%;
 }
 .main-cont2{
-    margin-top: 250px;
+    margin-top: 0;
 }
 .site-navbar{
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-top: 250px;
 }
 .site-navbar a{
     text-align: center;
@@ -146,7 +147,7 @@
 }
 @media (max-width: 628px) {
     .offer-price, .offer-line{
-        width: auto;
+        width: 90%;
         max-width: none;
     }
     .offer-price{
@@ -162,8 +163,10 @@
 }
 @media (max-width: 370px) {
     .site-navbar{
-        display: block;
         text-align: center;
-        gap: 30px;
+        gap: 15px;
+    }
+    .site-navbar a{
+        font-size: 24px;
     }
 }

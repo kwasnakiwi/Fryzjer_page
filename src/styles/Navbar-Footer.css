@@ -8,7 +8,6 @@
     padding: 0;
     width: 100%;
     padding-top: 7px;
-    margin-top: 0;
     margin: 0;
     transition: background-color 0.3s ease;
 }
@@ -114,3 +113,112 @@
 .navbar-scrolled {
     background-color: rgba(0, 0, 0, 0.5); /* Ciemniejsze tło po przewinięciu */
 }
+.footer img{
+    width: 217px;
+  }
+  .footer-list{
+    list-style: none;
+    padding: 0;
+    width: 230px;
+    text-align: left;
+    margin: 40px auto 0 auto;
+  }
+  .footer-list-line{
+    vertical-align: middle;
+    font-family: Saira Condensed;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    gap: 15px;
+    width: 122px;
+    margin: 0 auto;
+    color: white;
+    white-space: nowrap;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    gap: 15%;
+    padding-bottom: 6em;
+    align-items: center;
+    height: auto;
+  }
+  .footer-list-line span{
+    color: black;
+    background: rgba(217, 217, 217, 1);
+    margin-top: 20px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-list-line a{
+    color: white;
+  }
+  #firstInFooter{
+    transform: translateX(-20%);
+  }
+  #list1{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #list2{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #list3{
+    grid-column: 3;
+    grid-row: 1;
+  }
+  @media (max-width: 950px){
+    .footer img{
+        transform: translateX(0);
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+    #list1{
+        grid-column: 1;
+        grid-row: 1;
+      }
+      #list2{
+        grid-column: 2;
+        grid-row: 1;
+      }
+      #list3{
+        grid-column: 1 / 3;
+        grid-row: 2;
+        margin-top: -50px;
+      }
+  }
+  @media (max-width: 500px) {
+    .footer img{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .footer-list-line {
+        font-size: 20px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        padding-bottom: 230px;
+    }
+    #list1{
+        grid-column: 1;
+        grid-row: 1;
+
+      }
+      #list2{
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: -50px;
+      }
+      #list3{
+        grid-column: 1;
+        grid-row: 3;
+      }
+  }

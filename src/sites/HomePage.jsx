@@ -7,9 +7,8 @@ import opinia4 from './../assets/images/opinia4.jpg';
 import opinia5 from './../assets/images/opinia5.jpg';
 import star from './../assets/images/star.png';
 import pani from './../assets/images/pani.jpg';
-import usluga1 from './../assets/images/usluga1.png';
-import usluga2 from './../assets/images/usluga2.png';
-import usluga3 from './../assets/images/usluga3.png';
+import usluga1 from './../assets/images/Rectangle 26 (13).png';
+import usluga3 from './../assets/images/Rectangle 26 (14).png';
 import arrow3 from './../assets/images/arrow3.png';
 import arrow2 from './../assets/images/arrow2.png';
 import spec1 from './../assets/images/spec1.jpg';
@@ -20,10 +19,17 @@ import malpa from './../assets/images/malpa.png';
 import localization from './../assets/images/localizacion.png';
 import phone from './../assets/images/phone.png';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 function HomePage() {
   return(
     <>
+      <Helmet>
+        <title>MB Salon Urody - Sosnowiec</title>
+        <meta name='description'
+        content='Zapraszamy do MB Salon Urody! Oferujemy kompleksowe usługi fryzjerskie – strzyżenie, koloryzację i stylizację włosów, a także zabiegi kosmetyczne takie jak żele, manicure, zdobienia i wiele więcej. Zapraszamy!' />
+        <meta name='keywords' />
+      </Helmet>
       <div className="center-container">
         <div className="web-top">
             <div className='web-top-text'>
@@ -77,14 +83,13 @@ function HomePage() {
             <div className='description'>
               <img src={pani}/>
               <div className='description-text'>
-                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                <h2>Perfekcyjna fryzura w naszym salonie</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum 
-                  dolor sit amet consectetur. Lorem ipsum dolor sit 
-                  amet consectetur. Lorem ipsum dolor sit amet consectetur. 
-                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor 
-                  sit amet consectetur. Lorem ipsum dolor sit amet 
-                  consectetur. Lorem ipsum dolor sit amet consectetur. 
+                Nasz salon fryzjerski to miejsce, gdzie tradycja spotyka się z nowoczesnością. 
+                W przytulnej atmosferze, z dbałością o każdy detal, oferujemy szeroki zakres 
+                usług: od klasycznych cięć po najnowsze techniki koloryzacji. Doświadczony 
+                zespół, profesjonalne produkty i indywidualne podejście gwarantują, że każdy 
+                klient wyjdzie zadowolony. Zapraszamy
                 </p>
               </div>
             </div>
@@ -97,30 +102,15 @@ function HomePage() {
                   <div className='usluga-under'>
                     <h3>STRZYŻENIE</h3>
                   </div>
-                  <div className='text-hover'>
-							      <p>Lorem ipsum<br/>dolor sit amet</p>
-						      </div>
                 </div>
-                <div className='usluga'>
-                  <img src={usluga2}/>
-                  <div className='usluga-under'>
-                  <h3>USŁUGI PREMIUM</h3>
-                </div>
-                <div className='text-hover'>
-							      <p>Lorem ipsum<br/>dolor sit amet</p>
-						    </div>
-              </div>
               <div className='usluga lastUsluga'>
                 <img src={usluga3}/>
                 <div className='usluga-under'>
                   <h3>MANICURE</h3>
                 </div>
-                <div className='text-hover'>
-							      <p>Lorem ipsum<br/>dolor sit amet</p>
-						    </div>
                 </div>
               </div>
-              <Link  className='btn2' to='/uslugi/strzyzenie'>
+              <Link  className='btn2' to='/uslugi'>
                   Zobacz wszystkie uslugi<img src={arrow3}/>
               </Link>
             </div>
@@ -182,7 +172,7 @@ function HomePage() {
                   </div>
                   <div className='icon-box lastIcon'>
                     <img src={phone}/>
-                    <h4>123 123 123</h4>
+                    <h4>782 866 220</h4>
                   </div>
                 </div>
               </div>
