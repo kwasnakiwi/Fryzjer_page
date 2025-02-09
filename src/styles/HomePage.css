@@ -571,7 +571,7 @@
     }
 }
 @media (max-width: 415px) {
-    .uslugi .usluga img, .uslugi .usluga, .usluga-under{
+    .uslugi .usluga img, .uslugi .usluga, .uslugi .usluga-under{
         width: 200px;
     }
     .uslugi .usluga{
