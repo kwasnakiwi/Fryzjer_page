@@ -50,12 +50,12 @@ function Kosmetyka() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Manicure klasyczny</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>80 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Manicure hybrydowy</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>120 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
@@ -87,7 +87,7 @@ function Kosmetyka() {
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Korekta paznokci naturalnych</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>140 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -106,7 +106,7 @@ function Kosmetyka() {
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Korekta paznokci naturalnych</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>140 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>

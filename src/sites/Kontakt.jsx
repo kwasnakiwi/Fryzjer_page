@@ -11,26 +11,29 @@ function Kontakt() {
 				<h1 className="web-top-title2 web-top-title3">Zarezerwuj termin u naszych ekspertów</h1>
 				<div className='contact-icons'>
 					<div className='icon1'>
-						<img src={icon1} />
+						<a href='http://mbstudiourody.booksy.com/a'><img src={icon1} /></a>
 					</div>
 					<div className='icon2'>
 						<img src={icon2} />
 						<h5>
-							Ul.Poniatowskiego 4A<br/>
-							41-203 Sosnowiec
+							Ul. Wagowa 11A,<br/>
+							41-215 Sosnowiec
 						</h5>
 					</div>
+					
 					<div className='icon3'>
+					<a href='tel:+48782866220'>
 						<img src={icon3} />
 						<h5>
-							123 123 123
+							782 866 220
 						</h5>
+						</a>
 					</div>
 				</div>
 			</div>
 			<main className='main-page3'>
 				<div className='map-box'>
-					<iframe className='map2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.636628404545!2d19.15262641185138!3d50.2987104981595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da8a67c52f83%3A0x17ec9310a84e9ceb!2sPaderewska%20Agnieszka.%20Salon%20fryzjerski!5e0!3m2!1spl!2spl!4v1733502509438!5m2!1spl!2spl" width='1000px' style={{border: 0}} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe className='map2' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d637.2229444142265!2d19.241632269694005!3d50.29394799822267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDE3JzM4LjIiTiAxOcKwMTQnMzIuMiJF!5e0!3m2!1spl!2spl!4v1739103953808!5m2!1spl!2spl" width="1000px" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</main>
 		</div>

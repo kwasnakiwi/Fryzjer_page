@@ -25,18 +25,17 @@ function HomePage() {
   return(
     <>
       <Helmet>
-        <title>MB Salon Urody - Sosnowiec</title>
-        <meta name='description'
-        content='Zapraszamy do MB Salon Urody! Oferujemy kompleksowe usługi fryzjerskie – strzyżenie, koloryzację i stylizację włosów, a także zabiegi kosmetyczne takie jak żele, manicure, zdobienia i wiele więcej. Zapraszamy!' />
+        <title>MB Studio Urody - Sosnowiec</title>
+        <meta name='description' content='Zapraszamy do MB Studio Urody! Oferujemy kompleksowe usługi fryzjerskie – strzyżenie, koloryzację i stylizację włosów, a także zabiegi kosmetyczne takie jak żele, manicure, zdobienia i wiele więcej. Zapraszamy!' />
         <meta name='keywords' content='strzyżenie męskie, strzyżenie, koloryzacja, stylizacja włosów, zabiegi kosmetyczne, żele, manicure, salon urody, studio urody'/>
       </Helmet>
       <div className="center-container">
         <div className="web-top">
             <div className='web-top-text'>
             <h1 className="web-top-title">MB Studio Urody – zaufaj profesjonalistom!</h1>
-            <p className="web-top-desc">
+            <h2 className="web-top-desc">
             MB Studio Urody to wyjątkowe miejsce, w którym pasja łączy się z doświadczeniem. Specjalizujemy się w fryzjerstwie, kosmetologii oraz stylizacji paznokci, oferując usługi na najwyższym poziomie.
-            </p>
+            </h2>
             <Link to='/portfolio' className="btn1">Portfolio<img src={arrow1}/></Link>
           </div>
         </div>
@@ -144,40 +143,47 @@ function HomePage() {
                 </div>
               </div>
             </div>
-            <div className='wizytowka'>
-              <div className='wizytowka-left'>
-                <h2 className='wizytowka-title'>
-                Twoja metamorfoza zaczyna się tutaj – umów wizytę online!
-                </h2>
-                <p className='wizytowka-desc'>
-                Rezerwacja jeszcze nigdy nie była tak prosta!
-                Dzięki Booksy szybko i wygodnie wybierzesz dogodny termin.
-                Kliknij poniżej i zarezerwuj swoją wizytę już teraz
-                </p>
-                <button className='btn3'>
-                  Rezerwuj przez Booksy<img src={arrow2}/>
-                </button>
-              </div>
-              <div className='wizytowka-right'>
-                <iframe className='map1' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2548.636810466018!2d19.1526264!3d50.2987071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da8a67c52f83%3A0x17ec9310a84e9ceb!2sPaderewska%20Agnieszka.%20Salon%20fryzjerski!5e0!3m2!1spl!2spl!4v1732040764317!5m2!1spl!2spl"  height="475" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                <div className='icons'>
-                  <div className='icon-box'>
-                    <img src={malpa}/>
-                    <h4>example@gmail.com</h4>
-                  </div>
-                  <div className='icon-box'>
-                    <img src={localization}/>
-                    <h4>Jana Matejki 31,<br/>
-                        41-219 Sosnowiec</h4>
-                  </div>
-                  <div className='icon-box lastIcon'>
-                    <img src={phone}/>
-                    <h4>782 866 220</h4>
-                  </div>
+            <div className='wizytowka-box'>
+              <div className="wizytowka">
+                <div className='wizytowka-left'>
+                  <h3 className='wizytowka-title'>
+                  Twoja metamorfoza zaczyna się tutaj – umów wizytę online!
+                  </h3>
+                  <h4 className='wizytowka-desc'>
+                  Rezerwacja jeszcze nigdy nie była tak prosta!
+                  Dzięki Booksy szybko i wygodnie wybierzesz dogodny termin.
+                  Kliknij poniżej i zarezerwuj swoją wizytę już teraz
+                  </h4>
+                  <button className='btn3'>
+                    <a target='_blank' href='http://mbstudiourody.booksy.com/a'>Rezerwuj przez Booksy</a><img src={arrow2}/>
+                  </button>
+                </div>
+                <div className='wizytowka-right'>
+                  <iframe className='map1' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d637.2229444142265!2d19.241632269694005!3d50.29394799822267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDE3JzM4LjIiTiAxOcKwMTQnMzIuMiJF!5e0!3m2!1spl!2spl!4v1739103953808!5m2!1spl!2spl" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
                 </div>
               </div>
+              <div className='icons'>
+                
+                  <div className='icon-box'>
+                  <a target='_blank' href="mailto:mbstudiourodykontakt@gmail.com">
+                    <img src={malpa}/>
+                    <h4>mbstudiourodykontakt@gmail.com</h4>
+                  </a>
+                  </div>
+                  <div className='icon-box nd2'>
+                    <img src={localization}/>
+                    <h4>Wagowa 11A,<br/>
+                        41-215 Sosnowiec</h4>
+                  </div>
+                    <div className='icon-box lastIcon'>
+                    <a href="tel:+48782866220" target='_blank'>
+                      <img src={phone}/>
+                      <h4>782 866 220</h4>
+                      </a>
+                    </div>
+                </div>
+              </div>           
             </div>
-          </div>
         </main>
       </div>
     </>

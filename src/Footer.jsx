@@ -15,10 +15,10 @@ function Footer() {
             </ul>
             <ul className="footer-list" id="list3">
                 <li className="footer-list-line">MB Studio Urody</li>
-                <li className="footer-list-line">Adres</li>
+                <li className="footer-list-line">Wagowa 11A</li>
                 <li className="footer-list-line">Sosnowiec</li>
-				<li className="footer-list-line">Mail</li>
-				<li className="footer-list-line">782 866 220</li>
+				<li className="footer-list-line"><a href="mailto:mbstudiourodykontakt@gmail.com">mbstudiourodykontakt@gmail.com</a></li>
+				<li className="footer-list-line"><a href="tel:+48782866220">782 866 220</a></li>
             </ul>
         </div>
 }
