@@ -115,13 +115,14 @@
 }
 .footer img{
     width: 217px;
+    margin: 0 15%;
   }
   .footer-list{
     list-style: none;
     padding: 0;
-    width: 230px;
+    width: auto;
     text-align: left;
-    margin: 40px auto 0 auto;
+    margin: 40px auto;
   }
   .footer-list-line{
     vertical-align: middle;
@@ -130,7 +131,7 @@
     font-weight: 300;
     text-align: left;
     gap: 15px;
-    width: 122px;
+    width: auto;
     margin: 0 auto;
     color: white;
     white-space: nowrap;
@@ -157,9 +158,6 @@
   }
   .footer-list-line a{
     color: white;
-  }
-  #firstInFooter{
-    transform: translateX(-20%);
   }
   #list1{
     grid-column: 1;
