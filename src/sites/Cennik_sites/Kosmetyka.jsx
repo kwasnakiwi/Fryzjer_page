@@ -50,7 +50,7 @@ function Kosmetyka() {
                 <div className='offer-prices'>
                   <div className='offer-price'>
                     <p>Manicure klasyczny</p>
-                    <h4 className='price'>80 zł</h4>
+                    <h4 className='price'>60 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
@@ -59,18 +59,13 @@ function Kosmetyka() {
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Spa Manicure</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
                     <p>Usunięcie masy (z innego salonu)</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>20 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Naprawa jednego paznokcia</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>30 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -81,13 +76,18 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Żel na naturalnej płytce</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Żel w butelce</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Krótkie</p>
+                    <h4 className='price'>130 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Korekta paznokci naturalnych</p>
-                    <h4 className='price'>140 zł</h4>
+                    <p>Salonowe</p>
+                    <h4 className='price'>150 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Długie</p>
+                    <h4 className='price'>170 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -100,13 +100,18 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Żel na naturalnej płytce</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Żel w butelce</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Krótkie</p>
+                    <h4 className='price'>130 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Korekta paznokci naturalnych</p>
-                    <h4 className='price'>140 zł</h4>
+                    <p>Salonowe</p>
+                    <h4 className='price'>150 zł</h4>
+                  </div>
+                  <hr className='offer-line' />
+                  <div className='offer-price'>
+                    <p>Długie</p>
+                    <h4 className='price'>170 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -115,31 +120,16 @@ function Kosmetyka() {
             <div className='offer-box' id='b3'>
               <img src={cennik3} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-left'>Żel / akrylożel</h2>
+                <h2 className='offer-name margin-left'>Przedłużanie paznokci</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Krótkie</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Średnie</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Salonowe</p>
+                    <h4 className='price'>170 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
                     <p>Długie</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Usunięcie masy (z innego salonu)</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Naprawa jednego paznokcia</p>
-                    <h4 className='price'>xx zł</h4>
+                    <h4 className='price'>200 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -150,13 +140,8 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Rekonstrukcja</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Pojedyńczy paznokieć</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pełna stylizacja</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Rekonstrukcja paznokci obgryzanych</p>
+                    <h4 className='price'>220 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -169,13 +154,8 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Rekonstrukcja</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>Pojedyńczy paznokieć</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pełna stylizacja</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Rekonstrukcja paznokci obgryzanych</p>
+                    <h4 className='price'>220 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -184,21 +164,21 @@ function Kosmetyka() {
             <div className='offer-box' id='b5'>
               <img src={cennik5} />
               <div className='cennik-box-text'>
-                <h2 className='offer-name margin-left'>Uzupełnienie</h2>
+                <h2 className='offer-name margin-left'>Pedicure</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>2-3 tygodnie</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Pedicure hybrydowy</p>
+                    <h4 className='price'>100 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>3-4 tygodnie</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Pedicure solo (tylko obróbka)</p>
+                    <h4 className='price'>130 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Powyżej 4 tygodni</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Pedicure pełny (obróbka + hybryda)</p>
+                    <h4 className='price'>160 zł</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -209,23 +189,13 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Zdobienie</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>French/ombre</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>French/babyboomer</p>
+                    <h4 className='price'>20 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Naklejka/stempel</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Ręcznie malowane zdobienie</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pyłek</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Inne</p>
+                    <h4 className='price'>10 zł+</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>
@@ -238,23 +208,13 @@ function Kosmetyka() {
                 <h2 className='offer-name margin-right'>Zdobienie</h2>
                 <div className='offer-prices'>
                   <div className='offer-price'>
-                    <p>French/ombre</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>French/babyboomer</p>
+                    <h4 className='price'>20 zł</h4>
                   </div>
                   <hr className='offer-line' />
                   <div className='offer-price'>
-                    <p>Naklejka/stempel</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Ręcznie malowane zdobienie</p>
-                    <h4 className='price'>xx zł</h4>
-                  </div>
-                  <hr className='offer-line' />
-                  <div className='offer-price'>
-                    <p>Pyłek</p>
-                    <h4 className='price'>xx zł</h4>
+                    <p>Inne</p>
+                    <h4 className='price'>10 zł+</h4>
                   </div>
                   <hr className='offer-line' />
                 </div>

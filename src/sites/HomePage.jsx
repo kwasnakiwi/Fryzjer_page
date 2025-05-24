@@ -11,9 +11,9 @@ import usluga1 from './../assets/images/Rectangle 26 (13).png';
 import usluga3 from './../assets/images/Rectangle 26 (14).png';
 import arrow3 from './../assets/images/arrow3.png';
 import arrow2 from './../assets/images/arrow2.png';
-import spec1 from './../assets/images/spec1.jpg';
-import spec2 from './../assets/images/spec2.jpg';
-import spec3 from './../assets/images/spec3.jpg';
+import spec1 from './../assets/images/specj1.jpg';
+import spec2 from './../assets/images/specj2.jpg';
+import spec3 from './../assets/images/specj3.jpg';
 import spec4 from './../assets/images/spec4.jpg';
 import malpa from './../assets/images/malpa.png';
 import localization from './../assets/images/localizacion.png';
@@ -119,26 +119,20 @@ function HomePage() {
               <div className='ppl'>
                 <div className='person'>
                   <img src={spec1}/>
-                  <div>
-                    <h3><b>Monika</b> - Fryzjerka</h3>
+                  <div  id='different-spec'>
+                    <h3><b>Paulina</b> - Stylistka Paznokci</h3>
                   </div>
                 </div>
                 <div className='person'>
                   <img src={spec2}/>
                   <div>
-                    <h3><b>Monika</b> - Fryzjerka</h3>
+                    <h3><b>Izabela</b> - Fryzjerka</h3>
                   </div>
                 </div>
                 <div className='person'>
                   <img src={spec3}/>
                   <div>
-                    <h3><b>Monika</b> - Stylistka</h3>
-                  </div>
-                </div>
-                <div className='person'>
-                  <img src={spec4}/>
-                  <div>
-                    <h3><b>Monika</b> - Stylistka</h3>
+                    <h3><b>Karolina</b> - Fryzjerka</h3>
                   </div>
                 </div>
               </div>
