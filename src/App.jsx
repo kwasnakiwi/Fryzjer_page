@@ -22,8 +22,7 @@ function App() {
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/cennik/fryzjerstwo" element={<Fryzjerstwo />} />
-          <Route path="/cennik/kosmetyka" element={<Kosmetyka />} />
+          <Route path="/cennik" element={<Fryzjerstwo />} />
           <Route path="/uslugi" element={<Uslugi />} />
           <Route path='/kontakt' element={<Kontakt />} />
         </Routes>

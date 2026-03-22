@@ -1,45 +1,54 @@
-import './../../styles/Cennik.css';
-import { Link } from 'react-router-dom';
-import cennik1 from './../../assets/images/cennik7.png'
-import cennik2 from './../../assets/images/cennik8.png'
-import cennik3 from './../../assets/images/cennik9.png'
-import cennik4 from './../../assets/images/cennik10.png'
-import cennik5 from './../../assets/images/cennik11.png'
-import cennik6 from './../../assets/images/cennik12.png'
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import "./../../styles/Cennik.css";
+import { Link } from "react-router-dom";
+import cennik1 from "./../../assets/images/cennik7.png";
+import cennik2 from "./../../assets/images/cennik8.png";
+import cennik3 from "./../../assets/images/cennik9.png";
+import cennik4 from "./../../assets/images/cennik10.png";
+import cennik5 from "./../../assets/images/cennik11.png";
+import cennik6 from "./../../assets/images/cennik12.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function Fryzjerstwo() {
-  
-  const location = useLocation();
+  // const location = useLocation();
 
-  useEffect(() => {
-    const hash = location.hash;
-    if (hash) {
-      const element = document.querySelector(hash);
-      if (element) {
-        // Obliczanie pozycji elementu względem górnej krawędzi strony
-        const elementPosition = element.getBoundingClientRect().top;
-        
-        // Przewijanie do elementu z offsetem
-        window.scrollTo({
-          top: elementPosition + window.pageYOffset - 200, // 300px od góry
-          behavior: 'smooth',
-        });
-      }
-    }
-  }, [location]);
+  // useEffect(() => {
+  //   const hash = location.hash;
+  //   if (hash) {
+  //     const element = document.querySelector(hash);
+  //     if (element) {
+  //       // Obliczanie pozycji elementu względem górnej krawędzi strony
+  //       const elementPosition = element.getBoundingClientRect().top;
 
-  
-  return(
+  //       // Przewijanie do elementu z offsetem
+  //       window.scrollTo({
+  //         top: elementPosition + window.pageYOffset - 200, // 300px od góry
+  //         behavior: 'smooth',
+  //       });
+  //     }
+  //   }
+  // }, [location]);
+
+  return (
     <>
       <div className="center-container">
+        <div className="to-booksy">
+          <h2>Pełny cennik i rezerwacje online</h2>
+          <a
+            href="https://booksy.com/pl-pl/282082_mb-studio-urody_fryzjer_12268_sosnowiec"
+            className="btn-booksy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sprawdź ceny na <strong>Booksy</strong>
+          </a>
+        </div>
         {/* <div className="web-top3">
           <h1 className="web-top-title2">
             Ceny, które odpowiadają Twoim wymaganiom
           </h1>
         </div> */}
-        <main className='main-cont2'>
+        {/* <main className='main-cont2'>
           <div className='site-navbar'>
 						<Link id='blue' to='/cennik/fryzjerstwo'>Fryzjerstwo</Link>
             <Link to='/cennik/kosmetyka'>Kosmetyka</Link>
@@ -296,10 +305,10 @@ function Fryzjerstwo() {
               </div>
             </div>
           </div>
-        </main>
+        </main> */}
       </div>
     </>
-  )
+  );
 }
 
-export default Fryzjerstwo
+export default Fryzjerstwo;

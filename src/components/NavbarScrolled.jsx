@@ -1,25 +1,32 @@
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function NavbarScrolled() {
+  const location = useLocation();
+
   useEffect(() => {
     const navbar = document.querySelector('.navbar-list');
+    if (!navbar) return;
 
     const handleScroll = () => {
-      if (window.scrollY > 100 || location.pathname === '/cennik/fryzjerstwo' || location.pathname === '/cennik/kosmetyka' ) {
+      const isPricingPage = location.pathname.startsWith('/cennik');
+      const isScrolled = window.scrollY > 200;
+
+      if (isScrolled || isPricingPage) {
         navbar.classList.add('navbar-scrolled');
       } else {
         navbar.classList.remove('navbar-scrolled');
       }
     };
 
-    // Dodanie nasłuchiwacza
-    window.addEventListener('scroll', handleScroll);
+    handleScroll();
 
-    // Usunięcie nasłuchiwacza przy odmontowaniu komponentu
+    window.addEventListener('scroll', handleScroll);
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); // Pusty array oznacza, że efekt uruchomi się tylko raz, po załadowaniu komponentu
+  }, [location.pathname]);
 
   return null;
 }

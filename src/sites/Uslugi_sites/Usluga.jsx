@@ -59,7 +59,7 @@ function Usluga() {
 			</div>
 			<main className='main-cont3'>
 				<div className='uslugi2'>
-					<Link to='/cennik/fryzjerstwo#b1'>
+					<Link to='/cennik/'>
 						<div className='usluga'>
 							<img src={usluga1}/>
 							<div className='usluga-under'>
@@ -76,7 +76,7 @@ function Usluga() {
 							</div>
 						</div>
 					</Link>
-					<Link to='/cennik/fryzjerstwo#b3'>
+					<Link to='/cennik/'>
 						<div className='usluga'>
 							<img src={usluga2}/>
 							<div className='usluga-under'>
@@ -93,7 +93,7 @@ function Usluga() {
 							</div>
 						</div>
 					</Link>
-					<Link to='/cennik/fryzjerstwo#b5'>
+					<Link to='/cennik'>
 						<div className='usluga'>
 							<img src={usluga3}/>
 							<div className='usluga-under' id="diff">
@@ -109,7 +109,7 @@ function Usluga() {
 							</div>
 						</div>
 					</Link>
-					<Link to='/cennik/kosmetyka#b1'>
+					<Link to='/cennik'>
 						<div className='usluga'>
 							<img src={usluga4}/>
 							<div className='usluga-under'>
@@ -126,7 +126,7 @@ function Usluga() {
 							</div>
 						</div>
 					</Link>
-					<Link to='/cennik/kosmetyka#b3'>
+					<Link to='/cennik'>
 						<div className='usluga'>
 							<img src={usluga5}/>
 							<div className='usluga-under'>
@@ -141,7 +141,7 @@ function Usluga() {
 							</div>
 						</div>
 					</Link>
-					<Link to='/cennik/kosmetyka#b5'>
+					<Link to='/cennik'>
 						<div className='usluga'>
 							<img src={usluga6}/>
 							<div className='usluga-under'>
@@ -159,7 +159,7 @@ function Usluga() {
 					</Link>
 				</div>
 				<div className='button'>
-					<Link to='/cennik/fryzjerstwo' className='uslugi-btn'>Zobacz ceny<img src={arrow}/></Link>
+					<Link to='/cennik' className='uslugi-btn'>Zobacz ceny<img src={arrow}/></Link>
 				</div>
 			</main>
 		</div>

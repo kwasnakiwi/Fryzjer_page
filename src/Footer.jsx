@@ -10,7 +10,7 @@ function Footer() {
                 <li className="footer-list-line"><Link to='/'>Strona Główna</Link></li>
                 <li className="footer-list-line"><Link to='/uslugi'>Usługi</Link></li>
                 <li className="footer-list-line"><Link to='/portfolio'>Portfolio</Link></li>
-				<li className="footer-list-line"><Link to='/cennik/strzyzenie'>Cennik</Link></li>
+				<li className="footer-list-line"><Link to='/cennik'>Cennik</Link></li>
                 <li className="footer-list-line"><Link to='/kontakt'>Kontakt</Link></li>
             </ul>
             <ul className="footer-list" id="list3">
