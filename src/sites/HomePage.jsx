@@ -27,7 +27,6 @@ function HomePage() {
       <Helmet>
         <title>MB Studio Urody - Sosnowiec</title>
         <meta name='description' content='Zapraszamy do MB Studio Urody! Oferujemy kompleksowe usługi fryzjerskie – strzyżenie, koloryzację i stylizację włosów, a także zabiegi kosmetyczne takie jak żele, manicure, zdobienia i wiele więcej. Zapraszamy!' />
-        <meta name='keywords' content='strzyżenie męskie, strzyżenie, koloryzacja, stylizacja włosów, zabiegi kosmetyczne, żele, manicure, salon urody, studio urody'/>
       </Helmet>
       <div className="center-container">
         <div className="web-top">
